@@ -2,17 +2,93 @@
 <html>
 <head>
   <title>Maggie's 2nd Quarter Portfolio</title>
+  <style>
+    /* === General Page Setup === */
+    body {
+      font-family: 'monospace', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #305270; /* light blue */
+      text-align: center;
+      color: #333;
+    }
+
+
+
+    h1 {
+      margin: 10px 0 30px 0;
+      font-size: 2em;
+      color: #ffffff; 
+    }
+
+    
+    .image-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      margin-bottom: 50px;
+    }
+
+    .image-grid a {
+      text-decoration: none;
+      color: #333;
+      transition: transform 0.3s, box-shadow 0.3s;
+      display: inline-block;
+    }
+
+    .image-grid img {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      border: 3px solid #ffffff;
+      object-fit: cover;
+      background-color: #ffffff;
+      padding: 5px;
+    }
+
+    .image-grid p {
+      margin-top: 8px;
+      font-weight: bold;
+      color: #ffffff;
+      font-size: 0.9em;
+    }
+
+    
+    .image-grid a:hover img {
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    }
+
+   
+
+
+  </style>
 </head>
 <body>
-  <section class="w3-container">
-   <h1>Links to Maggie's work</h1>
-   <nav>
-    <ul>
-      <li><a href="./public/graded/2Q1GStrontiumTan.html"> Q2 First Graded Exercise </a> </li>
-      <li><a href="./public/non graded/Q21NGStrontiumTan.html"> Q2 1st Non-Graded Exercise</a> 
-      
-    </ul>
-   </nav>
-  </section>
+
+
+  <!-- Page Title -->
+  <h1>Maggie's Works</h1>
+  <h1>⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅⋅˚₊‧ ୨୧ ‧₊˚ ⋅</h1>
+
+  <!-- Grid of Clickable Images -->
+  <div class="image-grid">
+    <a href="./public/graded/2Q1GStrontiumTan.html">
+      <img src="https://i.pinimg.com/736x/e4/21/71/e42171fa7503523dda2298094b2c8da9.jpg" alt="Q2 First Graded">
+      <p>Q2 First Graded</p>
+    </a>
+
+    <a href="./public/non graded/Q21NGStrontiumTan.html">
+      <img src="https://i.pinimg.com/736x/90/54/d0/9054d0ba4b9a7d79460f8bd64f555f16.jpg" alt="Q2 1st Non-Graded">
+      <p>Q2 1st Non-Graded</p>
+    </a>
+
+    <a href="./public/graded/2Q2GStrontiumTan.html">
+      <img src="https://i.pinimg.com/736x/ce/2e/fc/ce2efc2e9b657b9debe184940eeb981f.jpg" alt="Q2 Second Graded">
+      <p>Q2 Second Graded</p>
+    </a>
+  </div>
+
 </body>
 </html>
